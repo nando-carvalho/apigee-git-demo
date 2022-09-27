@@ -1,9 +1,12 @@
-<APIProxy revision="1" name="git-demo">
+<APIProxy revision="2" name="git-demo">
     <DisplayName></DisplayName>
     <Description></Description>
-    <CreatedAt>1664280445608</CreatedAt>
-    <LastModifiedAt>1664280445608</LastModifiedAt>
+    <CreatedAt>1664284741042</CreatedAt>
+    <LastModifiedAt>1664284741042</LastModifiedAt>
     <BasePaths>/v1/git-mock</BasePaths>
+    <Policies>
+        <Policy>SA-LimitRate</Policy>
+    </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
     </ProxyEndpoints>
